@@ -1,0 +1,42 @@
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    background: white;
+    padding: 4rem;
+    max-width: 170rem;
+
+    &__color{
+        width: 25rem;
+        flex-grow: 1;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.3rem solid rgb(128, 128, 128, 0.2);
+        border-radius: 0.3rem;
+        overflow: hidden;
+    }
+
+    &__color:hover{
+        cursor: pointer;
+    }
+
+    &__color:hover &__circle{
+        transform: scale(1.2);
+    }
+
+    &__circle{
+        width: 50%;
+        height: 50%;background: #BAD7E9;
+        border-radius: 50%;
+        transition: 0.2s transform;
+        transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        overflow: hidden;
+
+        &--selected{
+            transform: scale(3);
+        }
+    }
+}
