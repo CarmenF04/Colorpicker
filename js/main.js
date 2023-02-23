@@ -3,18 +3,17 @@ let secondColor = false;
 
 
 for(let i = 0; i < colors.length; i++ ){
-    // Set Color
 
-    if(secondColor === false){
-        colors[i].children[0].style.background = "#BAD7E9";
-        secondColor = true;
-    }
-    else{
-        colors[i].children[0].style.background = "#4E31AA";
-        secondColor = false;
-    }
+    // Nummer inclusief 1 - 360 inclusief => 
+    // Percentage inclusief 11 - 79 => saturatie
+    // Percentage inclusief 11 - 100 => licht
+    //x = Math.random() * (max - min) + min;
+    colors[i].style.animationDelay = i/10 + "s";
+    let randomHue = Math.floor(Math.random() * (360 - 1) + 1);
+    let randomSaturation = Math.floor(Math.random() * (79 - 11) + 11) + "%";
+    let randomLightness = Math.floor(Math.random() * (100 - 11) + 11) + "%";
 
-
+    colors[i].children[0].style.background = `hsl(${randomHue} ${randomSaturation} ${randomLightness})`;
     // Onclick
     colors[i].onclick = function(){
         colors[i].children[0].classList.add("colors__circle--selected");

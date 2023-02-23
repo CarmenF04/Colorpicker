@@ -21,6 +21,15 @@
         overflow: hidden;
         transition: 0.2s;
         position: relative;
+        animation-name: popupCard;
+        animation-duration: 0.6s;
+        animation-fill-mode: backwards;
+    }
+
+    @for $i from 1 through 100{
+        &__color:nth-of-type(#{$i}){
+            background: #{$i} + "s";
+        }
     }
 
     &__color:hover{

@@ -31,6 +31,16 @@ body {
     opacity: 1;
   }
 }
+@keyframes popupCard {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
 .colors {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +62,309 @@ body {
   overflow: hidden;
   transition: 0.2s;
   position: relative;
+  animation-name: popupCard;
+  animation-duration: 0.6s;
+  animation-fill-mode: backwards;
+}
+.colors__color:nth-of-type(1) {
+  background: 1s;
+}
+.colors__color:nth-of-type(2) {
+  background: 2s;
+}
+.colors__color:nth-of-type(3) {
+  background: 3s;
+}
+.colors__color:nth-of-type(4) {
+  background: 4s;
+}
+.colors__color:nth-of-type(5) {
+  background: 5s;
+}
+.colors__color:nth-of-type(6) {
+  background: 6s;
+}
+.colors__color:nth-of-type(7) {
+  background: 7s;
+}
+.colors__color:nth-of-type(8) {
+  background: 8s;
+}
+.colors__color:nth-of-type(9) {
+  background: 9s;
+}
+.colors__color:nth-of-type(10) {
+  background: 10s;
+}
+.colors__color:nth-of-type(11) {
+  background: 11s;
+}
+.colors__color:nth-of-type(12) {
+  background: 12s;
+}
+.colors__color:nth-of-type(13) {
+  background: 13s;
+}
+.colors__color:nth-of-type(14) {
+  background: 14s;
+}
+.colors__color:nth-of-type(15) {
+  background: 15s;
+}
+.colors__color:nth-of-type(16) {
+  background: 16s;
+}
+.colors__color:nth-of-type(17) {
+  background: 17s;
+}
+.colors__color:nth-of-type(18) {
+  background: 18s;
+}
+.colors__color:nth-of-type(19) {
+  background: 19s;
+}
+.colors__color:nth-of-type(20) {
+  background: 20s;
+}
+.colors__color:nth-of-type(21) {
+  background: 21s;
+}
+.colors__color:nth-of-type(22) {
+  background: 22s;
+}
+.colors__color:nth-of-type(23) {
+  background: 23s;
+}
+.colors__color:nth-of-type(24) {
+  background: 24s;
+}
+.colors__color:nth-of-type(25) {
+  background: 25s;
+}
+.colors__color:nth-of-type(26) {
+  background: 26s;
+}
+.colors__color:nth-of-type(27) {
+  background: 27s;
+}
+.colors__color:nth-of-type(28) {
+  background: 28s;
+}
+.colors__color:nth-of-type(29) {
+  background: 29s;
+}
+.colors__color:nth-of-type(30) {
+  background: 30s;
+}
+.colors__color:nth-of-type(31) {
+  background: 31s;
+}
+.colors__color:nth-of-type(32) {
+  background: 32s;
+}
+.colors__color:nth-of-type(33) {
+  background: 33s;
+}
+.colors__color:nth-of-type(34) {
+  background: 34s;
+}
+.colors__color:nth-of-type(35) {
+  background: 35s;
+}
+.colors__color:nth-of-type(36) {
+  background: 36s;
+}
+.colors__color:nth-of-type(37) {
+  background: 37s;
+}
+.colors__color:nth-of-type(38) {
+  background: 38s;
+}
+.colors__color:nth-of-type(39) {
+  background: 39s;
+}
+.colors__color:nth-of-type(40) {
+  background: 40s;
+}
+.colors__color:nth-of-type(41) {
+  background: 41s;
+}
+.colors__color:nth-of-type(42) {
+  background: 42s;
+}
+.colors__color:nth-of-type(43) {
+  background: 43s;
+}
+.colors__color:nth-of-type(44) {
+  background: 44s;
+}
+.colors__color:nth-of-type(45) {
+  background: 45s;
+}
+.colors__color:nth-of-type(46) {
+  background: 46s;
+}
+.colors__color:nth-of-type(47) {
+  background: 47s;
+}
+.colors__color:nth-of-type(48) {
+  background: 48s;
+}
+.colors__color:nth-of-type(49) {
+  background: 49s;
+}
+.colors__color:nth-of-type(50) {
+  background: 50s;
+}
+.colors__color:nth-of-type(51) {
+  background: 51s;
+}
+.colors__color:nth-of-type(52) {
+  background: 52s;
+}
+.colors__color:nth-of-type(53) {
+  background: 53s;
+}
+.colors__color:nth-of-type(54) {
+  background: 54s;
+}
+.colors__color:nth-of-type(55) {
+  background: 55s;
+}
+.colors__color:nth-of-type(56) {
+  background: 56s;
+}
+.colors__color:nth-of-type(57) {
+  background: 57s;
+}
+.colors__color:nth-of-type(58) {
+  background: 58s;
+}
+.colors__color:nth-of-type(59) {
+  background: 59s;
+}
+.colors__color:nth-of-type(60) {
+  background: 60s;
+}
+.colors__color:nth-of-type(61) {
+  background: 61s;
+}
+.colors__color:nth-of-type(62) {
+  background: 62s;
+}
+.colors__color:nth-of-type(63) {
+  background: 63s;
+}
+.colors__color:nth-of-type(64) {
+  background: 64s;
+}
+.colors__color:nth-of-type(65) {
+  background: 65s;
+}
+.colors__color:nth-of-type(66) {
+  background: 66s;
+}
+.colors__color:nth-of-type(67) {
+  background: 67s;
+}
+.colors__color:nth-of-type(68) {
+  background: 68s;
+}
+.colors__color:nth-of-type(69) {
+  background: 69s;
+}
+.colors__color:nth-of-type(70) {
+  background: 70s;
+}
+.colors__color:nth-of-type(71) {
+  background: 71s;
+}
+.colors__color:nth-of-type(72) {
+  background: 72s;
+}
+.colors__color:nth-of-type(73) {
+  background: 73s;
+}
+.colors__color:nth-of-type(74) {
+  background: 74s;
+}
+.colors__color:nth-of-type(75) {
+  background: 75s;
+}
+.colors__color:nth-of-type(76) {
+  background: 76s;
+}
+.colors__color:nth-of-type(77) {
+  background: 77s;
+}
+.colors__color:nth-of-type(78) {
+  background: 78s;
+}
+.colors__color:nth-of-type(79) {
+  background: 79s;
+}
+.colors__color:nth-of-type(80) {
+  background: 80s;
+}
+.colors__color:nth-of-type(81) {
+  background: 81s;
+}
+.colors__color:nth-of-type(82) {
+  background: 82s;
+}
+.colors__color:nth-of-type(83) {
+  background: 83s;
+}
+.colors__color:nth-of-type(84) {
+  background: 84s;
+}
+.colors__color:nth-of-type(85) {
+  background: 85s;
+}
+.colors__color:nth-of-type(86) {
+  background: 86s;
+}
+.colors__color:nth-of-type(87) {
+  background: 87s;
+}
+.colors__color:nth-of-type(88) {
+  background: 88s;
+}
+.colors__color:nth-of-type(89) {
+  background: 89s;
+}
+.colors__color:nth-of-type(90) {
+  background: 90s;
+}
+.colors__color:nth-of-type(91) {
+  background: 91s;
+}
+.colors__color:nth-of-type(92) {
+  background: 92s;
+}
+.colors__color:nth-of-type(93) {
+  background: 93s;
+}
+.colors__color:nth-of-type(94) {
+  background: 94s;
+}
+.colors__color:nth-of-type(95) {
+  background: 95s;
+}
+.colors__color:nth-of-type(96) {
+  background: 96s;
+}
+.colors__color:nth-of-type(97) {
+  background: 97s;
+}
+.colors__color:nth-of-type(98) {
+  background: 98s;
+}
+.colors__color:nth-of-type(99) {
+  background: 99s;
+}
+.colors__color:nth-of-type(100) {
+  background: 100s;
 }
 .colors__color:hover {
   cursor: pointer;
