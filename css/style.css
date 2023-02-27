@@ -34,11 +34,11 @@ body {
 @keyframes popupCard {
   from {
     opacity: 0;
-    transform: translateY(2rem);
+    transform: translateY(2);
   }
   to {
     opacity: 1;
-    transform: translateY(0rem);
+    transform: translateY(0);
   }
 }
 .colors {
@@ -67,304 +67,304 @@ body {
   animation-fill-mode: backwards;
 }
 .colors__color:nth-of-type(1) {
-  background: 1s;
+  animation-delay: 0.1s;
 }
 .colors__color:nth-of-type(2) {
-  background: 2s;
+  animation-delay: 0.2s;
 }
 .colors__color:nth-of-type(3) {
-  background: 3s;
+  animation-delay: 0.3s;
 }
 .colors__color:nth-of-type(4) {
-  background: 4s;
+  animation-delay: 0.4s;
 }
 .colors__color:nth-of-type(5) {
-  background: 5s;
+  animation-delay: 0.5s;
 }
 .colors__color:nth-of-type(6) {
-  background: 6s;
+  animation-delay: 0.6s;
 }
 .colors__color:nth-of-type(7) {
-  background: 7s;
+  animation-delay: 0.7s;
 }
 .colors__color:nth-of-type(8) {
-  background: 8s;
+  animation-delay: 0.8s;
 }
 .colors__color:nth-of-type(9) {
-  background: 9s;
+  animation-delay: 0.9s;
 }
 .colors__color:nth-of-type(10) {
-  background: 10s;
+  animation-delay: 1s;
 }
 .colors__color:nth-of-type(11) {
-  background: 11s;
+  animation-delay: 1.1s;
 }
 .colors__color:nth-of-type(12) {
-  background: 12s;
+  animation-delay: 1.2s;
 }
 .colors__color:nth-of-type(13) {
-  background: 13s;
+  animation-delay: 1.3s;
 }
 .colors__color:nth-of-type(14) {
-  background: 14s;
+  animation-delay: 1.4s;
 }
 .colors__color:nth-of-type(15) {
-  background: 15s;
+  animation-delay: 1.5s;
 }
 .colors__color:nth-of-type(16) {
-  background: 16s;
+  animation-delay: 1.6s;
 }
 .colors__color:nth-of-type(17) {
-  background: 17s;
+  animation-delay: 1.7s;
 }
 .colors__color:nth-of-type(18) {
-  background: 18s;
+  animation-delay: 1.8s;
 }
 .colors__color:nth-of-type(19) {
-  background: 19s;
+  animation-delay: 1.9s;
 }
 .colors__color:nth-of-type(20) {
-  background: 20s;
+  animation-delay: 2s;
 }
 .colors__color:nth-of-type(21) {
-  background: 21s;
+  animation-delay: 2.1s;
 }
 .colors__color:nth-of-type(22) {
-  background: 22s;
+  animation-delay: 2.2s;
 }
 .colors__color:nth-of-type(23) {
-  background: 23s;
+  animation-delay: 2.3s;
 }
 .colors__color:nth-of-type(24) {
-  background: 24s;
+  animation-delay: 2.4s;
 }
 .colors__color:nth-of-type(25) {
-  background: 25s;
+  animation-delay: 2.5s;
 }
 .colors__color:nth-of-type(26) {
-  background: 26s;
+  animation-delay: 2.6s;
 }
 .colors__color:nth-of-type(27) {
-  background: 27s;
+  animation-delay: 2.7s;
 }
 .colors__color:nth-of-type(28) {
-  background: 28s;
+  animation-delay: 2.8s;
 }
 .colors__color:nth-of-type(29) {
-  background: 29s;
+  animation-delay: 2.9s;
 }
 .colors__color:nth-of-type(30) {
-  background: 30s;
+  animation-delay: 3s;
 }
 .colors__color:nth-of-type(31) {
-  background: 31s;
+  animation-delay: 3.1s;
 }
 .colors__color:nth-of-type(32) {
-  background: 32s;
+  animation-delay: 3.2s;
 }
 .colors__color:nth-of-type(33) {
-  background: 33s;
+  animation-delay: 3.3s;
 }
 .colors__color:nth-of-type(34) {
-  background: 34s;
+  animation-delay: 3.4s;
 }
 .colors__color:nth-of-type(35) {
-  background: 35s;
+  animation-delay: 3.5s;
 }
 .colors__color:nth-of-type(36) {
-  background: 36s;
+  animation-delay: 3.6s;
 }
 .colors__color:nth-of-type(37) {
-  background: 37s;
+  animation-delay: 3.7s;
 }
 .colors__color:nth-of-type(38) {
-  background: 38s;
+  animation-delay: 3.8s;
 }
 .colors__color:nth-of-type(39) {
-  background: 39s;
+  animation-delay: 3.9s;
 }
 .colors__color:nth-of-type(40) {
-  background: 40s;
+  animation-delay: 4s;
 }
 .colors__color:nth-of-type(41) {
-  background: 41s;
+  animation-delay: 4.1s;
 }
 .colors__color:nth-of-type(42) {
-  background: 42s;
+  animation-delay: 4.2s;
 }
 .colors__color:nth-of-type(43) {
-  background: 43s;
+  animation-delay: 4.3s;
 }
 .colors__color:nth-of-type(44) {
-  background: 44s;
+  animation-delay: 4.4s;
 }
 .colors__color:nth-of-type(45) {
-  background: 45s;
+  animation-delay: 4.5s;
 }
 .colors__color:nth-of-type(46) {
-  background: 46s;
+  animation-delay: 4.6s;
 }
 .colors__color:nth-of-type(47) {
-  background: 47s;
+  animation-delay: 4.7s;
 }
 .colors__color:nth-of-type(48) {
-  background: 48s;
+  animation-delay: 4.8s;
 }
 .colors__color:nth-of-type(49) {
-  background: 49s;
+  animation-delay: 4.9s;
 }
 .colors__color:nth-of-type(50) {
-  background: 50s;
+  animation-delay: 5s;
 }
 .colors__color:nth-of-type(51) {
-  background: 51s;
+  animation-delay: 5.1s;
 }
 .colors__color:nth-of-type(52) {
-  background: 52s;
+  animation-delay: 5.2s;
 }
 .colors__color:nth-of-type(53) {
-  background: 53s;
+  animation-delay: 5.3s;
 }
 .colors__color:nth-of-type(54) {
-  background: 54s;
+  animation-delay: 5.4s;
 }
 .colors__color:nth-of-type(55) {
-  background: 55s;
+  animation-delay: 5.5s;
 }
 .colors__color:nth-of-type(56) {
-  background: 56s;
+  animation-delay: 5.6s;
 }
 .colors__color:nth-of-type(57) {
-  background: 57s;
+  animation-delay: 5.7s;
 }
 .colors__color:nth-of-type(58) {
-  background: 58s;
+  animation-delay: 5.8s;
 }
 .colors__color:nth-of-type(59) {
-  background: 59s;
+  animation-delay: 5.9s;
 }
 .colors__color:nth-of-type(60) {
-  background: 60s;
+  animation-delay: 6s;
 }
 .colors__color:nth-of-type(61) {
-  background: 61s;
+  animation-delay: 6.1s;
 }
 .colors__color:nth-of-type(62) {
-  background: 62s;
+  animation-delay: 6.2s;
 }
 .colors__color:nth-of-type(63) {
-  background: 63s;
+  animation-delay: 6.3s;
 }
 .colors__color:nth-of-type(64) {
-  background: 64s;
+  animation-delay: 6.4s;
 }
 .colors__color:nth-of-type(65) {
-  background: 65s;
+  animation-delay: 6.5s;
 }
 .colors__color:nth-of-type(66) {
-  background: 66s;
+  animation-delay: 6.6s;
 }
 .colors__color:nth-of-type(67) {
-  background: 67s;
+  animation-delay: 6.7s;
 }
 .colors__color:nth-of-type(68) {
-  background: 68s;
+  animation-delay: 6.8s;
 }
 .colors__color:nth-of-type(69) {
-  background: 69s;
+  animation-delay: 6.9s;
 }
 .colors__color:nth-of-type(70) {
-  background: 70s;
+  animation-delay: 7s;
 }
 .colors__color:nth-of-type(71) {
-  background: 71s;
+  animation-delay: 7.1s;
 }
 .colors__color:nth-of-type(72) {
-  background: 72s;
+  animation-delay: 7.2s;
 }
 .colors__color:nth-of-type(73) {
-  background: 73s;
+  animation-delay: 7.3s;
 }
 .colors__color:nth-of-type(74) {
-  background: 74s;
+  animation-delay: 7.4s;
 }
 .colors__color:nth-of-type(75) {
-  background: 75s;
+  animation-delay: 7.5s;
 }
 .colors__color:nth-of-type(76) {
-  background: 76s;
+  animation-delay: 7.6s;
 }
 .colors__color:nth-of-type(77) {
-  background: 77s;
+  animation-delay: 7.7s;
 }
 .colors__color:nth-of-type(78) {
-  background: 78s;
+  animation-delay: 7.8s;
 }
 .colors__color:nth-of-type(79) {
-  background: 79s;
+  animation-delay: 7.9s;
 }
 .colors__color:nth-of-type(80) {
-  background: 80s;
+  animation-delay: 8s;
 }
 .colors__color:nth-of-type(81) {
-  background: 81s;
+  animation-delay: 8.1s;
 }
 .colors__color:nth-of-type(82) {
-  background: 82s;
+  animation-delay: 8.2s;
 }
 .colors__color:nth-of-type(83) {
-  background: 83s;
+  animation-delay: 8.3s;
 }
 .colors__color:nth-of-type(84) {
-  background: 84s;
+  animation-delay: 8.4s;
 }
 .colors__color:nth-of-type(85) {
-  background: 85s;
+  animation-delay: 8.5s;
 }
 .colors__color:nth-of-type(86) {
-  background: 86s;
+  animation-delay: 8.6s;
 }
 .colors__color:nth-of-type(87) {
-  background: 87s;
+  animation-delay: 8.7s;
 }
 .colors__color:nth-of-type(88) {
-  background: 88s;
+  animation-delay: 8.8s;
 }
 .colors__color:nth-of-type(89) {
-  background: 89s;
+  animation-delay: 8.9s;
 }
 .colors__color:nth-of-type(90) {
-  background: 90s;
+  animation-delay: 9s;
 }
 .colors__color:nth-of-type(91) {
-  background: 91s;
+  animation-delay: 9.1s;
 }
 .colors__color:nth-of-type(92) {
-  background: 92s;
+  animation-delay: 9.2s;
 }
 .colors__color:nth-of-type(93) {
-  background: 93s;
+  animation-delay: 9.3s;
 }
 .colors__color:nth-of-type(94) {
-  background: 94s;
+  animation-delay: 9.4s;
 }
 .colors__color:nth-of-type(95) {
-  background: 95s;
+  animation-delay: 9.5s;
 }
 .colors__color:nth-of-type(96) {
-  background: 96s;
+  animation-delay: 9.6s;
 }
 .colors__color:nth-of-type(97) {
-  background: 97s;
+  animation-delay: 9.7s;
 }
 .colors__color:nth-of-type(98) {
-  background: 98s;
+  animation-delay: 9.8s;
 }
 .colors__color:nth-of-type(99) {
-  background: 99s;
+  animation-delay: 9.9s;
 }
 .colors__color:nth-of-type(100) {
-  background: 100s;
+  animation-delay: 10s;
 }
 .colors__color:hover {
   cursor: pointer;
@@ -397,9 +397,6 @@ body {
 @media screen and (max-width: 62.5rem) {
   .colors__color {
     width: 12rem;
-  }
-  .colors:hover .colors__circle {
-    transform: none;
   }
 }
 @media screen and (max-width: 50rem) {

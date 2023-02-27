@@ -28,7 +28,7 @@
 
     @for $i from 1 through 100{
         &__color:nth-of-type(#{$i}){
-            background: #{$i} + "s";
+            animation-delay: $i/10 + s;
         }
     }
 
