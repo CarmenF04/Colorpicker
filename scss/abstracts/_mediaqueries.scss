@@ -1,19 +1,21 @@
 @media screen and (max-width: 62.5rem){
     .colors{
+
         &__color{
-            width: 12rem;
+            width: 14rem;
         }
     }
 }
 
 @media screen and (max-width: 50rem){
     body{
-        padding: 2;
+        padding: 2rem;
     }
 
     .colors{
+
         &__color{
-            width: 15rem;
+            width: 12rem;
         }
     }
 }

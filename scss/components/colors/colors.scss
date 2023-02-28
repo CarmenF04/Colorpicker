@@ -3,6 +3,8 @@
 .colors{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     list-style: none;
     background: white;
@@ -28,7 +30,7 @@
 
     @for $i from 1 through 100{
         &__color:nth-of-type(#{$i}){
-            animation-delay: $i/10 + s;
+            animation-delay: $i / 10 + s;
         }
     }
 

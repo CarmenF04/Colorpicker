@@ -44,6 +44,8 @@ body {
 .colors {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
   list-style: none;
   background: white;
@@ -396,15 +398,15 @@ body {
 
 @media screen and (max-width: 62.5rem) {
   .colors__color {
-    width: 12rem;
+    width: 14rem;
   }
 }
 @media screen and (max-width: 50rem) {
   body {
-    padding: 2;
+    padding: 2rem;
   }
   .colors__color {
-    width: 15rem;
+    width: 12rem;
   }
 }
 
