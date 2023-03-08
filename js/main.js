@@ -1,4 +1,5 @@
-class ColorsCard {
+// Class = blauwdruk
+class ColorsCard { // De colorcard bevat de volgende dingen
     id;
     color;
     addToList;
@@ -7,39 +8,51 @@ class ColorsCard {
     text;
 
     constructor(newId, newColor, addToList) {
+        // maak properties
         this.id = newId;
         this.color = newColor;
         this.addToList = addToList;  
 
+        // maak een li element
         this.htmlElement = document.createElement("li");
+        // geef het een naam
         this.htmlElement.classList = "colors__color";
 
+        // maak een figure en geef deze een class
         this.circle = document.createElement("figure");
         this.circle.classList = "colors__circle";
         this.circle.style.background = this.color;
 
+        // maak een p element
         this.text = document.createElement("p");
         this.text.innerText = "Copied";
         this.text.classList = "colors__text";
 
+        // als je op de functie klikt voert hij uit
         this.htmlElement.onclick = this.onHTMLElementClicked;
 
+         // render
         this.render();
     }
 
     onHTMLElementClicked = () => {
+        // class toevoegn aan circle
         this.circle.classList.add("colors__circle--selected");
+        // titel veranderen
         document.title = this.color;
+        // kopie de kleur
         window.navigator.clipboard.writeText(this.color);
     }
 
     render() {
+        // hier voegen we een ul, figure, p aan li
         this.htmlElement.appendChild(this.circle);
         this.htmlElement.appendChild(this.text);
         this.addToList.appendChild(this.htmlElement);
     }
 }
 
+// Class = blauw druk
 class ColorList {
     id;
     htmlElement;
@@ -57,11 +70,12 @@ class ColorList {
     }
 }
 
-
+// Class = blauw druk
 class HSLGenerator {
-    rendomHue;
-    rendomSaturation;
+    randomHue;
+    randomSaturation;
     randomLightness;
+    hsl;
 
     constructor() {
         this.generateHSL();
@@ -87,6 +101,7 @@ class HSLGenerator {
     }
 }
 
+// Class = blauw druk
 class App { 
     id;
     colorList;
@@ -94,17 +109,17 @@ class App {
 
     constructor(newId) {
         this.id = newId;
-        // Making new object with the given App id
+        // nieuwe object maken met app id
         this.colorList = new ColorList(this.id);
         this.hslGenerator = new HSLGenerator();
         this.generateColorCards();
     }
 
     generateColorCards = function () {
-        // Starts at 1 and ends at 100
+        // begint bij 1 en eindigt bij 100
         for (let i = 1; i <= 100; i++) {
             this.hslGenerator.generateHSL();
-            // Making new object
+            // new object maken
             new ColorsCard(i, this.hslGenerator.hsl, document.getElementById(this.colorList.id));
         }
     }
